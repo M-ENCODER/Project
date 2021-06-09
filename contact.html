@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="icon" type="image/x-icon" href="chocolate.png" />
+	<title>Contact us</title>
+	<link rel="stylesheet" type="text/css" href="style1.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+  <!---font-family--->
+<link href="https://fonts.googleapis.com/css2?family=Galada&display=swap" rel="stylesheet">
+<!---bootstrap--> 
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+<!----cake icon/logo--->
+<script
+      src="https://use.fontawesome.com/releases/v5.13.0/js/all.js"
+      crossorigin="anonymous"
+    ></script>
+</head>
+<body>
+  <!---navigation class--->
+<nav class="navbar navbar-expand-lg navbar-light ">
+  <!---navigation class--->
+  <div class="container-fluid">
+    <!---class for the name of the website(Chocotopia)----->
+    <a class="navbar-brand" style="color: white;" href="#"><img src="chocolate.png" style="width: 10%;"/>  Chocotopia</a>
+    <!----button--->
+    <button style="border: 2px solid white;
+    border-radius: 15%; background-color:#e3b2ac;" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon" style="background-color:#e3b2ac;"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <!------nav-item(home,recipes,contact)---->
+        <li class="nav-item">
+          <a class="nav-link active" style="color: white;" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" style="color: white;" href="recipe.html">Recipes</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link" style="color: white;" href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!----background-image--->
+<main style="
+        background-image: url('cake9.jpg');
+        background-size: cover; 
+		height:10%;
+      ">
+      <!----contact us sentence--->
+  <div class="contact-header">Contact us</div>
+  <p class= "please">Please send your message below. We will get back to you at the earliest!</p>
+  <!----contact-form--->
+  <form>
+  <div class="mb-3">
+  <input type="text" class="form-control" style="font-family:'Galada',cursive; color: brown;font-size:25px;" id="formGroupExampleInput" placeholder="Enter your Name" required>
+</div>
+<div class="mb-3">
+  <input type="text" class="form-control" style="font-family:'Galada',cursive; color: brown;font-size:25px;" id="formGroupExampleInput2" placeholder="Enter your Email" required>
+</div>
+<div class="mb-3">
+  <input type="text" class="form-control" style="font-family:'Galada',cursive; color: brown;font-size:25px;" id="formGroupExampleInput3" placeholder="Give us your feedback!">
+</div>
+<!----submit-button---->
+  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" style="background-color: #570e28;margin-left:130px;border-radius: 5px;font-family:'Galada',cursive;font-size:25px;">
+  Submit!
+</button>
+</form>
+ <!----pop up dialog box--->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel"style="font-family:'Galada',cursive; ">Thanks!!!</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+       <!----pop up dialog box--->
+      <div class="modal-body" style="font-family:'Galada',cursive; ">
+        Thank you for sending your message. We will respond soon! 
+      </div>
+      <div class="modal-footer">
+        <!----pop up dialog box--->
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"style="font-family:'Galada',cursive; ">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!----
+  <div class="about-section">
+      <h1 style="color: white;font-family: Galada,cursive;padding-top: 30px;">Know about us</h1>
+      <h4 style="color: white;font-family: Galada,cursive;">Chocotopia Team</h4>
+    </div>
+    </div>
+    <div class="card-group">
+      <div class="card">
+        <div class="card-block">
+          <h4 class="card-title card-title1">Alessa Zaiseva</h4>
+          <p style="font-family: Galada,cursive">  I am new to coding, with skills in HTML, CSS, JavaScript and BootStrap.  </p>
+        </div>
+      </div>
+    
+      <div class="card">
+        <div class="card-block">
+          <h4 class="card-title  card-title1">Keertahnna Kuyalvvana</h4>
+          <p style="font-family: Galada,cursive">  I am new to coding, with skills in HTML, CSS, JavaScript and BootStrap.  
+          </p>
+        </div>
+      </div>
+      <div class="card">
+          <div class="card-block">
+            <h4 class="card-title  card-title1">Synthia Zaman Mihsu</h4>
+            <p style="font-family: Galada,cursive">
+              I am new to coding, with skills in HTML, CSS, JavaScript and BootStrap.  
+            </p>
+          </div>
+        </div>
+        <div class="card">
+            <div class="card-block">
+              <h4 class="card-title  card-title1">Vanessa Sjoborg</h4>
+              <p style="font-family: Galada,cursive">
+                I am new to coding, with skills in HTML, CSS, JavaScript and BootStrap.  
+   
+    </a>
+              </p>
+            </div>
+          </div>
+    </div>
+    ---->
+    <div>
+      <h4 style="font-family: Galada,cursive;color: white;font-size: 30px;padding-top: 10px;">Find us</h4>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.6358732927292!2d-0.0631703846596345!3d51.51989601761103!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761ccdd099ec49%3A0x7bdac2f880e7776e!2sDurward%20St%2C%20London%2C%20UK!5e0!3m2!1sen!2sbd!4v1622054756846!5m2!1sen!2sbd" width="400" height="150" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  </div>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
+<!----with whom do you want to conatct with--->
+<button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample"style="background-color: #570e28;color: white;font-family: Galada,cursive;height: 50px;width: 200px;font-size: 24px;padding-bottom: 10px;margin-bottom: 10px;">
+ Meet the team!
+</button>
+<!----About us offcanvas section--->
+<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+  <div class="offcanvas-header"style="background-color: #5b1a04;color: white;font-size: 24px;">
+    <h5 class="offcanvas-title" id="offcanvasExampleLabel"style="font-family: Galada,cursive;">Chocotopia Team</h5>
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <div>
+      <p style="font-family: Galada,cursive;font-size: 18px;">Alice Zaiceva<br>  I am new to coding, with skills in HTML, CSS, JavaScript and BootStrap.</p>
+      <hr>
+        <p style="font-family: Galada,cursive;font-size: 18px;">Keerthanna Kuyalavanthan<br>  I am new to coding, with skills in HTML, CSS, JavaScript and BootStrap.</p>
+        <hr>
+          <p style="font-family: Galada,cursive;font-size: 18px;">Synthia Zaman Mishu<br>  I am new to coding, with skills in HTML, CSS, JavaScript and BootStrap.</p>
+          <hr>
+            <p style="font-family: Galada,cursive;font-size: 18px;">Vanessa Sjoborg<br>  I am new to coding, with skills in HTML, CSS, JavaScript and BootStrap.</p>
+    </div>
+    </div>
+  </div>
+</div>
+ <h2 style="font-family: 'Galada',cursive;color: white;">Subscribe to our newsletter!</h2>
+<div>
+<form>
+<div class="mb-3">
+  <input type="text" class="form-control" style="font-family:'Galada',cursive; color: brown;font-size:24px;" id="formGroupExampleInput2" placeholder="Enter youe Email" required>
+</div>
+</form>
+</div>
+<!---
+<button type="button" class="btn btn-secondary"style="font-family:'Galada',cursive; margin-top: 10px;background-color:  #570e28;">Sign in</button>
+--->
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"style="font-family:'Galada',cursive; margin-top: 5px;background-color: #570e28;font-size: 20px;">
+  Submit!
+</button>
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="address"><i class="fas fa-map-marker-alt"></i>  24th street, west London, UK 
+<br><i class="fas fa-phone"></i>  +44 1819 189000
+<br><i class="far fa-envelope-open"></i>  chocotopiacakeshop364@gmail.com</div>
+</main>
+
+<footer>
+  <div class="d-flex justify-content-center align-items-center">
+        <a
+          class="d-inline-flex align-items-center justify-content-center twitter"
+          href="#"
+          ><i class="fab fa-twitter"></i
+        ></a>
+        <a
+          class="d-inline-flex align-items-center justify-content-center facebook"
+          href="#"
+          ><i class="fab fa-facebook-f"></i
+        ></a>
+        <a
+          class="d-inline-flex align-items-center justify-content-center instagram"
+          href="#"
+          ><i class="fab fa-instagram"></i
+        ></a>
+      </div>
+      <ul>
+        <li style="color: white;">
+          &#169; 2021 Chocotopia
+        </li>
+      </ul>
+      </footer>
+      <!----bootstrap used for the footer--->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,183 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+/*navbar-design*/
+nav{
+	display: flex;
+	justify-content: space-around;
+	align-items: center; 
+	background-color: #5b1a04;
+	font-family: 'Galada', cursive;
+}
+/*chocotopia logo and nav-links*/
+.navbar .navbar-brand{
+	padding-right: 100px;
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	font-size: 30px;
+}
+.navbar-nav{
+	display: flex;
+	justify-content: space-around;
+	width: 60%;
+	color:white;
+}
+/*decoration of the nav-links*/
+.navbar-nav .nav-item .nav-link{
+     color:white;
+     text-decoration: none;
+     letter-spacing: 3px;
+     font-weight: bold;
+     font-size: 20px;
+}
+/*for hovering the nav-link*/
+.navbar-nav .nav-item:hover .nav-link {
+	background-color: brown;
+	border-radius: 10px;
+}
+/*nav-links(home,recipes,contact)*/
+.navbar-nav .nav-item{
+	box-shadow: 0px 2px 2px rgba(96, 96, 96, 0.3);
+	background: #3d051b;
+	color: #ffffff;
+	font-family: "Galada";
+	font-weight: 400;
+	font-size: 18px;
+	text-align: center;
+	border-radius: 10px;
+	list-style-type: none;
+}
+.recipe{
+	font-family: 'Galada', cursive;
+	color:  #5b1a04;
+	font-size: 80px;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 5px;
+}
+
+.card {
+	margin-bottom: 1000px;
+	box-shadow: 0 2px 4px 0;
+	transition: 0.3s;
+	margin: 20px;
+}
+.card:hover {
+	box-shadow: 0 8px 16px 0;
+	color: brown;
+	margin: 30px;
+}
+.card-title {
+	font-family: 'Galada', cursive;
+	text-align: center;
+}
+.card-secondary-title {
+	font-family: 'Galada', cursive;
+	text-decoration: underline;
+}
+.card-text {
+  font-size: 20px;
+  	font-family: 'Galada';
+}
+
+ul {
+	text-align: left;
+	font-size: 15px;
+  	font-family: 'Galada';
+	color: rgb(65, 62, 62);
+}
+
+.card-img-top {
+	width: 100%;
+  	height: auto;
+}
+.form-group{
+	color: brown;
+
+}
+main{
+	display: block;
+    text-align: center;
+	min-height: 100vh;
+}
+/*footer-design*/
+footer {
+  background-color: #5b1a04;
+  height: 10rem;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  margin-top: -10rem;
+}
+/*for design of the contents that will stay in the footer*/
+footer ul li {
+  list-style-type: none;
+  text-align: center;
+  position: relative;
+  top: 60px;
+  right: 35px;
+  font-size: 1.5rem;
+}
+/*facebook,twitter,instagram logo*/
+.twitter,
+.facebook,
+.instagram {
+  height: 3.5rem;
+  width: 3.5rem;
+  color: white;
+  border-radius: 100%;
+  font-size: 1.5rem;
+  margin-right: 1.5rem;
+  background-color: #3d051b;
+  position: inherit;
+  position: relative;
+  top: 40px;
+}
+.twitter:hover {
+  color: brown;
+}
+
+.facebook:hover {
+  color: brown;
+}
+
+.instagram:hover {
+  color: brown;
+}
+
+.twitter:hover,
+.facebook:hover,
+.instagram:hover {
+  background-color: #e3b2ac;
+}
+
+/* Extra small devices (phones) */
+@media only screen and (max-width: 768px){
+.navbar-nav{
+	width:100%;
+}
+footer{
+	margin-top:0px;
+}
+}
+/* Small devices (portrait tablets and large phones) */
+@media only screen and (min-width: 600px){
+	.navbar-nav{
+	width:100%;
+}
+footer{
+	margin-top:0px;
+}
+}
+/* Large devices (laptops/desktops) */
+@media only screen and (min-width: 992px){
+	.navbar-nav{
+	width:60%;
+}
+footer{
+	margin-top:-10rem;
+}
+}

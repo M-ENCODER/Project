@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head style="background-color: #5b1a04;">
+  <link rel="icon" type="image/x-icon" href="chocolate.png" />
+  <script src="converter.js"></script>
+  <title>Recipe</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="style3.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+ <!---font-family--->
+ <link href="https://fonts.googleapis.com/css2?family=Galada&display=swap" rel="stylesheet">
+ <!---bootstrap--> 
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+ <!----cake icon/logo--->
+ <script
+       src="https://use.fontawesome.com/releases/v5.13.0/js/all.js"
+       crossorigin="anonymous"
+     ></script>
+
+</head>
+<body>
+  <!---navigation class--->
+<nav class="navbar navbar-expand-lg navbar-light ">
+  <!---navigation class--->
+  <div class="container-fluid">
+    <!---class for the name of the website(Chocotopia)----->
+    <a class="navbar-brand" style="color: white;" href="#"><img src="chocolate.png" style="width: 10%;"/> Chocotopia</a>
+    <!----button--->
+    <button style="border: 2px solid white;
+    border-radius: 15%; background-color:#e3b2ac;" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon" style="background-color:#e3b2ac;"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <!------nav-item(home,recipes,contact)---->
+        <li class="nav-item">
+          <a class="nav-link active" style="color: white;" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" style="color: white;" href="recipe.html">Recipes</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link" style="color: white;" href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<main style="margin-bottom: 400px;"> 
+<h1 class="recipe"><i class="fas fa-utensils"style="color: #5b1a04;font-size: 80px;margin-top: 10px;margin-right: 10px;"></i>Recipes<i class="fas fa-utensils"style="color: #5b1a04;font-size: 80px;margin-top: 10px;margin-left: 10px;"></i></h1>
+  <!---recipe cards---->
+  <div>
+    <section id="recipes"></section>
+    <div class="card-group">
+  <div class="card">
+    <img src="choco_pudding_pie.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title" style="color: brown;font-size: 24px;">Chocolate Pudding Pie</h5>
+      <h7 class="card-secondary-title" style="color: brown;font-size: 18px;">For Graham Cracker Crust</h7>
+      <p class="card-text">
+        <ul>
+          <li style="color: brown;font-size: 18px;"> 1 1/2 c. graham cracker crumbs
+          </li>
+          <li style="color: brown;font-size: 18px;"> 5 tbsp. melted butter
+          </li>
+          <li style="color: brown;font-size: 18px;"> 1/3 c. packed brown sugar
+          </li>
+          <li style="color: brown;font-size: 18px;"> 1/2 tsp. kosher salt
+          </li>
+          </ul>
+        <h7 class="card-secondary-title" style="color: brown;font-size: 18px;">For chocolate pudding filling</h7>
+        <ul>
+          <li style="color: brown;font-size: 18px;"> 2 c. whole milk
+          </li>
+          <li style="color: brown;font-size: 18px;"> 6 oz. semisweet chocolate, roughly chopped
+          </li>
+          <li style="color: brown;font-size: 18px;"> 4 large egg yolks
+          </li>
+          <li style="color: brown;font-size: 18px;"> 3/4 c. brown sugar
+          </li>
+          <li style="color: brown;font-size: 18px;"> 1/4 c. cornstarch
+          </li>
+          <li style="color: brown;font-size: 18px;"> 1/2 tsp. espresso powder
+          </li>
+          <li style="color: brown;font-size: 18px;"> 1/4 tsp. kosher salt
+          </li>
+        </ul>
+        <h7 class="card-secondary-title" style="color: brown;font-size: 18px;">For serving</h7>
+        <ul>
+          <li style="color: brown;font-size: 18px;"> 3/4 c. cold heavy cream
+          </li>
+          <li style="color: brown;font-size: 18px;"> 2 tbsp. powdered sugar
+          </li>
+          <li style="color: brown;font-size: 18px;"> Pinch kosher salt
+          </li>
+          <li style="color: brown;font-size: 18px;"> Chocolate curls, for garnish
+          </li>
+        </ul>
+      </p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="chocolatepudding.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title" style="color: brown;font-size: 24px;">Chocolate Pudding</h5>
+      <p class="card-text">
+        <ul>
+          <li style="color: brown;font-size: 18px;"> 1/2 c. granulated sugar
+          </li>
+          <li style="color: brown;font-size: 18px;"> 1/4 c. unsweetened cocoa powder
+          </li>
+          <li style="color: brown;font-size: 18px;"> 2 1/2 c. milk
+          </li>
+          <li style="color: brown;font-size: 18px;"> 3 large egg yolks
+          </li>
+          <li style="color: brown;font-size: 18px;"> 3 oz. chopped bittersweet chocolate
+          </li>
+          <li style="color: brown;font-size: 18px;"> 2 tbsp. butter
+          </li>
+          <li style="color: brown;font-size: 18px;"> 1 tsp. pure vanilla extract
+          </li>
+          <li style="color: brown;font-size: 18px;"> Whipped cream, for serving
+          </li>
+          <li style="color: brown;font-size: 18px;"> Chocolate shavings, for serving
+          </li>
+        </ul>
+      </p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="chocolateicecream.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title" style="color: brown;font-size: 24px;">Death by Chocolate Icecream</h5>
+      <p class="card-text">
+        <ul>
+          <li style="color: brown;font-size: 18px;"> 6 oz. chocolate (semisweet or dark)
+          </li>
+          <li style="color: brown;font-size: 18px;"> 1 1/2 c. whole milk
+          </li>
+          <li style="color: brown;font-size: 18px;"> 1 1/2 c. heavy cream
+          </li>
+          <li style="color: brown;font-size: 18px;"> 1/3 c. cocoa powder
+          </li>
+          <li style="color: brown;font-size: 18px;"> 3/4 c. granulated sugar
+          </li>
+          <li style="color: brown;font-size: 18px;"> 6 large egg yolks
+          </li>
+          <li style="color: brown;font-size: 18px;"> 2 tsp. pure vanilla extract
+          </li>
+          <li style="color: brown;font-size: 18px;"> 1/4 tsp. kosher salt
+          </li>
+        </ul>
+      </p>
+    </div>
+  </div>
+</div>
+  </div>
+  <div>
+    <section id="recipes"></section>
+    <div class="card-group">
+  <div class="card">
+    <img src="choco_souffle.jpg" class="card-img-top" alt="chocolate_souffle">
+    <div class="card-body">
+      <h5 class="card-title" style="color: brown;font-size: 24px;">Easy chocolate soufflé</h5>
+      <p class="card-text">
+      <ul>
+      <li style="color: brown;font-size: 18px;"> 1/2 c. (1 stick) butter, cut into tablespoons, plus more for dish
+      </li>
+      <li style="color: brown;font-size: 18px;"> 6 tbsp. granulated sugar, plus more for dish
+      </li>
+      <li style="color: brown;font-size: 18px;"> 8 oz. semisweet chocolate, roughly chopped
+      </li>
+      <li style="color: brown;font-size: 18px;"> 1 tsp. pure vanilla extract
+      </li>
+      <li style="color: brown;font-size: 18px;"> 1 tsp. kosher salt
+      </li>
+      <li style="color: brown;font-size: 18px;"> 4 large eggs, separated
+      </li>
+      <li style="color: brown;font-size: 18px;"> Powdered sugar, for serving
+      </li>
+    </ul>
+    </p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="peanutexplosion.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title" style="color: brown;font-size: 24px;">Peanut Butter Explosion Cakes</h5>
+      <p class="card-text">
+        <ul>
+          <li style="color: brown;font-size: 18px;"> 1/2 c. (1 stick) butter, cut into cubes, plus more for ramekins
+          </li>
+          <li style="color: brown;font-size: 18px;"> 1 c. chocolate chips
+          </li>
+          <li style="color: brown;font-size: 18px;"> 1/2 c. powdered sugar, plus more for topping
+          </li>
+          <li style="color: brown;font-size: 18px;"> 2 large eggs, plus 2 egg yolks
+          </li>
+          <li style="color: brown;font-size: 18px;"> 1 tsp. pure vanilla extract
+          </li>
+          <li style="color: brown;font-size: 18px;"> 1/4 c. unsweetened cocoa powder
+          </li>
+          <li style="color: brown;font-size: 18px;"> 1/4 c. all-purpose flour
+          </li>
+          <li style="color: brown;font-size: 18px;"> 1/2 tsp. kosher salt
+          </li>
+          <li style="color: brown;font-size: 18px;"> 4 tbsp. peanut butter
+          </li>
+          <li style="color: brown;font-size: 18px;"> 1 c. water
+          </li>
+        </ul>
+      </p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="chocolate oreos.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title" style="color: brown;font-size: 24px;">Chocolate Covered Oreos</h5>
+      <p class="card-text">
+        <ul>
+          <li style="color: brown;font-size: 18px;"> 12 Oreos
+          </li>
+          <li style="color: brown;font-size: 18px;"> 1 1/2 c. semisweet chocolate chips, melted
+          </li>
+          <li style="color: brown;font-size: 18px;"> 2 tsp. coconut oil, optional
+          </li>
+          <li style="color: brown;font-size: 18px;"> 1/4 c. white chocolate chips, melted
+          </li>
+        </ul>
+      </p>
+    </div>
+  </div>
+</div>
+  </div>
+  <!-----javascript calculatr
+  <div>
+    <p style="margin-top: 100px;">
+      <i class="fas fa-calculator"style="color: #5b1a04;font-size: 150px;"></i><h1 style="font-family:'Galada',cursive; color: brown;font-size:40px;">Measure your ingredients</h1>
+  <label style="font-family:'Galada',cursive; color: brown;font-size:30px;">Pounds</label>
+  <input id="inputPounds" type="number" placeholder="Pounds" oninput="weightConverter(this.value)" onchange="weightConverter(this.value)" style="font-family:'Galada',cursive; color: brown;font-size:30px;">
+</p>
+<p style="font-family:'Galada',cursive; color: brown;font-size:30px;">Kilograms: <span id="outputKilograms"></span></p>
+
+<script>
+function weightConverter(valNum) {
+  document.getElementById("outputKilograms").innerHTML=valNum/2.2046;
+}
+</script>
+
+  <label style="font-family:'Galada',cursive; color: brown;font-size:30px;">Kilograms</label>
+  <input id="inputKilograms" type="number" placeholder="Kilograms" oninput="weightConverter(this.value)" onchange="weightConverter(this.value)" style="font-family:'Galada',cursive; color: brown;font-size:30px;">
+</p>
+<p style="font-family:'Galada',cursive; color: brown;font-size:30px;">Grams: <span id="outputGrams"></span></p>
+
+<script>
+function weightConverter(valNum) {
+  document.getElementById("outputGrams").innerHTML=valNum*1000;
+}
+</script>
+
+  </div>
+  --->
+  <!---javascript calculator-->
+   <p style="margin-top: 100px;">
+      <i class="fas fa-calculator"style="color: #5b1a04;font-size: 150px;"></i><h1 style="font-family:'Galada',cursive; color: brown;font-size:40px;">Measure your ingredients</h1>
+    <div class="col-md-2" style="color: brown;"></div>
+    <div class="col-md-8">
+      <div class="form-group">
+        <select onchange="weightConverter(); Calculate()" class="form-control" id="converter" style="color: brown;font-size: 30px;font-family: 'Galada',cursive;border-color: brown;margin-left: 250px;margin-right: 500px;">
+          <option value="Pounds" style="color: brown;font-family:'Galada',cursive;font-size: 24px;">Pounds</option>
+          <option value="Kilograms" style="color: brown;font-family:'Galada',cursive;font-size: 24px;">Kilograms</option>
+          <option value="Ounces" style="color: brown;font-family:'Galada',cursive;font-size: 24px;">Ounces</option>
+          <option value="Stones" style="color: brown;font-family:'Galada',cursive;font-size: 24px;">Stones</option>
+        </select>
+        <br />
+        <input type="number" oninput="Calculate()" class="form-control" id="value1"/ style="color: brown;font-size: 24px;font-family: 'Galada',cursive;border-color: brown;margin-left: 250px;margin-right: 500px;">
+      </div>
+      <br /><br />
+      <div class="form-group">
+        <label style="color: brown;font-family:'Galada',cursive;font-size: 30px;margin-left:  500px;">Grams</label>
+        <input type="number" class="form-control" id="value2" style="color: brown;font-size: 24px;font-family: 'Galada',cursive;border-color: brown;margin-left: 250px;margin-right: 500px;">
+      </div>
+    </div>
+  </div>
+</main>
+  <footer>
+  <div class="d-flex justify-content-center align-items-center">
+        <a
+          class="d-inline-flex align-items-center justify-content-center twitter"
+          href="#"
+          ><i class="fab fa-twitter"></i
+        ></a>
+        <a
+          class="d-inline-flex align-items-center justify-content-center facebook"
+          href="#"
+          ><i class="fab fa-facebook-f"></i
+        ></a>
+        <a
+          class="d-inline-flex align-items-center justify-content-center instagram"
+          href="#"
+          ><i class="fab fa-instagram"></i
+        ></a>
+      </div>
+        <div>
+      <ul>
+        <li style="color: white;">
+          &#169; 2021 Chocotopia
+        </li>
+      </ul>
+    </div>
+      </footer>
+ <!----bootstrap used for the footer--->
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>    
+</body>
+</html>
